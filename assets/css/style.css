@@ -1,0 +1,66 @@
+body {
+ margin: 0 auto;
+ padding: 5em;
+ background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR50dOqOYhy0xpcxWy73zQsLr7MRoD_xY-mfzmTL9amK83SdrBu);
+ text-emphasis: bold;
+}
+
+#game-title {
+  color: purple;
+  font-size: 40px;
+  background-color:black;
+  margin: 10px;
+  margin-right: 340px;
+  text-align: center;
+}
+
+#instructions {
+   color: blue;
+   background-color: beige;
+   margin-right: 300px;
+   margin-bottom: 10px;
+   margin-left: 15px;
+}
+
+.buttons {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+#target-score {
+    background-color: green;
+    height: 120px;
+    margin-right: 450px;
+    margin-left: 15px;
+}
+
+#wins-losses {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 480px;
+    background-color: aquamarine;
+    height: 90px;
+}
+
+
+
+#image1 {
+    height: 100px;
+}
+
+#image2 {
+    height: 100px;
+}
+
+#image3 {
+    height: 100px;
+}
+
+#image4 {
+    height: 100px;
+}
+
+#score-container {
+    margin-top: 20px;
+    margin-left: 15px;
+}
