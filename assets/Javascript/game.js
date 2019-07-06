@@ -16,6 +16,7 @@ $(document).ready(function(){
 
 	var targetNumber = randomNum(19,120);
 	$("#counter-total").html(targetNumber);
+	console.log(targetNumber)
 
 	var crystalOne= randomNum(1, 12);
 	var crystalTwo= randomNum(1, 12);
@@ -25,7 +26,7 @@ $(document).ready(function(){
 
 	function reset(){
 		counter = 0;
-		$("##counter-total").html(targetNumber);
+		$("#counter-total").html(targetNumber);
 		targetNumber = randomNum(19,120);
 		$("#counter-total").text(counter);
 		crystalOne= randomNum(1, 12);
@@ -40,14 +41,14 @@ $(document).ready(function(){
 	$("#image1").on("click", function(){
 		counter += crystalOne;
 		WinLoose();
-		$(counter-total).text(counter);
+		$("#counter-total").text(counter);
 		
 	});
 
 	$("#image2").on("click", function(){
 		counter += crystalTwo;
 		WinLoose();
-		$(counter-total).text(counter);
+		$("#counter-total").text(counter);
 		
 
 	});
@@ -55,7 +56,7 @@ $(document).ready(function(){
 	$("#image3").on("click", function(){
 		counter += crystalThree;
 		WinLoose();
-		$(counter-total).text(counter);
+		$("#counter-total").text(counter);
 		
 
 	});
@@ -63,7 +64,7 @@ $(document).ready(function(){
 	$("#image4").on("click", function(){
 		counter += crystalFour;
 		WinLoose();
-		$(counter-total).text(counter);
+		$("#counter-total").text(counter);
 		
 
 	});
@@ -73,13 +74,13 @@ $(document).ready(function(){
 	if (counter === targetNumber){
 		wins += 1;
 		alert("Winner!");
-		$(win).text(wins);
+		$("#wins").text(wins);
 		reset();
 
 	} else if(counter > targetNumber){
 		losses += 1;
 		alert("step your game up!");
-		$(loss).text(losses);
+		$("#losses").text(losses);
 		reset();
 	}
 	
