@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
 	var counter = 0;
-	var wins= 0;
+	var wins = 0;
 	var losses = 0;
 
 	
