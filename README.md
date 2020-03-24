@@ -15,3 +15,5 @@ Technologies Used:
 * CSS
 * Javascript
 * jQuery
+
+Have a wonderful day!
